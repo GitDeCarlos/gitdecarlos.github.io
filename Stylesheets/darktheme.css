@@ -62,6 +62,12 @@ div,img {
   margin: -1px;
 }
 
+#page-banner {
+  background-image: url("../Images/header_template.jpg");
+  background-size: cover;
+  height: 10rem;
+}
+
 #bio-image {
   background-image: url("../Images/carloscruz-headshot.png");
   background-size: cover;
