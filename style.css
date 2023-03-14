@@ -1,5 +1,6 @@
-/*
-Yea I know, who the hell links an unfinished website to their linkedin account
-*/
+@import url("Stylesheets/darktheme.css");
 
-@import url("Stylesheets/test.css");
+@font-face {
+  font-family: "Monocraft";
+  src: URL("Monocraft.otf");
+}
