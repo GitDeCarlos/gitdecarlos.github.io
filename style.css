@@ -1,4 +1,6 @@
 @import url("Stylesheets/darktheme.css");
+@import url("Stylesheets/grid.css");
+@import url("Stylesheets/gridcontents.css");
 
 @font-face {
   font-family: "Monocraft";
