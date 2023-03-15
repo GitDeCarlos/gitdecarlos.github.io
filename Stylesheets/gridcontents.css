@@ -1,6 +1,10 @@
 #page-banner {
   background-image: url("../Images/header_template.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 10rem;
 }
 

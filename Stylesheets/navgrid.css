@@ -1,0 +1,11 @@
+.basic-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 5rem;
+}
+
+#navgrid-homepage {
+  background-image: url("../Images/header_template.jpg");
+  background-size: cover;
+}
