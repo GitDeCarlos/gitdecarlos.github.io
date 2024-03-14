@@ -1,62 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <title>Website De Carlos (Under construction)</title>
-   <meta name="description" content="Carlos Cruz portfolio website">
+    <title>Website De Carlos (Under construction)</title>
+    <meta name="description" content="Carlos Cruz portfolio website">
 
-   <!--Contained stylesheets-->
-   <link rel="stylesheet" href="style.css" type="text/css" media="all">
- </head>
- <body>
-  <div id="grid-wrapper">
-   <div id="grid-left-blank">00</div>
-   <div id="grid-header">
-     <h1>Homepage</h1>
-   </div>
-   <div id="grid-right-blank">02</div>
-   <div id="grid-browser">
-     <!--<p>
-       ∨ Homepage <br><br>
-       |∨ Previous Works<br>|<br>
-       ||■ Lander VR (one day)<br>||<br>
-       ||■ Seige of Slime<br>||<br>
-       ||□ Slime Royal<br>||<br>
-       ∧ Experience<br><br>
-       ∧ Current Resume<br><br>
-       ∧ Credits<br><br>
-     </p>-->
-     <nav>
-       <section class="basic-grid">
-         <div class="card" id="navgrid-homepage">Homepage</div>
-         <div class="card">Projects</div>
-         <div class="card">Career</div>
-         <div class="card">Relevant Skills</div>
-         <div class="card">Credits</div>
-       </section>
-     </nav>
-   </div>
-   <div id="grid-page-content">
-     <div id="page-banner">header</div>
-     <div><h2>Welcome to my portfolio website.</h2>
-       Everything is still under construction, so please come back later.
-       <br>:)
-     </div>
-   </div>
-   <div id="grid-bio-content">
-     <div id="bio-image"></div>
-     <div id="bio-text">
-      <h1>Carlos Cruz</h1>
-      <h2>Student and Developer</h2>
-      <p>Senior Computer Science student with experience in DevOps methodologies and Full Stack development, I am a lifelong
-      learner with a passion for organization. Outside of work or school you can find me learning new ways of implementing my
-      skills in creative ways. I am currently learning Unreal Engine 5 as a hobbyist game developer.</p>
-     </div>
-   </div>
-  </div>
- </body>
+    <!--Contained stylesheets-->
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="logo" href="index.html">
+        <img src="Images/logo.png" alt="">
+      </a>
+      <p>Carlos Cruz</p>
+      <div class="nav-links">
+        <a class="current-page" href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="career.html">Career</a>
+        <a href="skills.html">Skills</a>
+        <a href="credits.html">Credits</a>
+      </div>
+      <a class="logo linkedin" href="https://www.linkedin.com/in/carlos-d-cruz/" target="_blank">
+        <img src="Images/linkedinlogo.svg" alt="">
+      </a>
+    </div>
+    <div class="content-main">
+      <!-- My content here -->
+      <h1 class="content-header">Welcome to my portfolio site!</h1>
+      <p class="content-header">Nothing to see here yet, please come back later...</p>
+    </div>
 
+    <script src="navbar.js"></script>
+  </body>
 </html>

@@ -1,8 +1,5 @@
 @import url("Stylesheets/darktheme.css");
-@import url("Stylesheets/grid.css");
-@import url("Stylesheets/gridcontents.css");
-@import url("Stylesheets/card.css");
-@import url("Stylesheets/navgrid.css");
+@import url("Stylesheets/main.css");
 
 @font-face {
   font-family: "Monocraft";
