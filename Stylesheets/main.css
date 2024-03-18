@@ -12,32 +12,38 @@ body, html {
     padding: 10px 20px;
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
 .navbar p {
     color: white;
     text-decoration: center;
     margin: 0 20px;
+    display: inline;
 }
 
 .logo img {
     height: 40px;
 }
 
-.nav-links {
+.nav-middle {
     flex-grow: 1;
     text-align: center;
 }
 
-.nav-links a {
+.nav-middle a {
     color: white;
     text-decoration: none;
     margin: 0 20px;
 }
 
-.nav-links a:hover {
+.nav-middle a:hover {
     color: lightgray;
 }
 
-.nav-links .current-page {
+.nav-middle .current-page {
     color: greenyellow;
 }
 
