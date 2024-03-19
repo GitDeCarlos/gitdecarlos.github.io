@@ -1,10 +1,14 @@
-//document.getElementById("navgrid-homepage").addEventListener("click", gotoHomepage);
-//document.getElementById("navgrid-projects").addEventListener("click", gotoProjects);
+const targetEl = document.querySelector('.content-main');
 
-function gotoHomepage() {
-    location.href = "index.html";
-}
+const loadPage = name => {
+    fetch(`./Pages/${name}.html`).then(res => {
+        if (res.ok) {
+            return res.text();
+        }
+    }).then(htmlSnippet => {
+        targetEl.innerHTML = htmlSnippet;
+    });
 
-function gotoProjects() {
-    location.href = "projects.html";
-}
+    document.querySelector(".current-page").classList.remove("current-page");
+    document.querySelector(`.${name}`).classList.add("current-page");
+};
