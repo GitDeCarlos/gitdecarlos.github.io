@@ -1,14 +1,10 @@
-const targetEl = document.querySelector('.content-main');
+//document.getElementById("navgrid-homepage").addEventListener("click", gotoHomepage);
+//document.getElementById("navgrid-projects").addEventListener("click", gotoProjects);
 
-const loadPage = name => {
-    fetch(`./Pages/${name}.html`).then(res => {
-        if (res.ok) {
-            return res.text();
-        }
-    }).then(htmlSnippet => {
-        targetEl.innerHTML = htmlSnippet;
-    });
+function gotoHomepage() {
+    location.href = "index.html";
+}
 
-    document.querySelector(".current-page").classList.remove("current-page");
-    document.querySelector(`.${name}`).classList.add("current-page");
-};
+function gotoProjects() {
+    location.href = "projects.html";
+}
