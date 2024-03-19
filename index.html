@@ -8,9 +8,10 @@
     <title>Website De Carlos (Under construction)</title>
     <meta name="description" content="Carlos Cruz portfolio website">
 
+    <!--Contained stylesheets-->
     <link rel="stylesheet" href="style.css" type="text/css" media="all">
   </head>
-  <body onload="loadPage('home')">
+  <body>
     <div class="navbar">
       <div class="nav-lm-wrapper">
         <div class="nav-left">
@@ -20,11 +21,11 @@
           <p>Carlos Cruz</p>
         </div>
         <div class="nav-middle">
-          <a class="home current-page" onclick="loadPage('home')">Home</a>
-          <a class="projects" onclick="loadPage('projects')">Projects</a>
-          <a class="resume" onclick="loadPage('resume')">Resume</a>
-          <a class="skills" onclick="loadPage('skills')">Skills</a>
-          <a class="contact" onclick="loadPage('contact')">Contact</a>
+          <a class="current-page" href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="career.html">Resume</a>
+          <a href="skills.html">Skills</a>
+          <a href="credits.html">Contact</a>
         </div>
       </div>
       <div class="nav-right">
@@ -35,8 +36,12 @@
     </div>
     <div class="content-main">
       <!-- My content here -->
-      <h1 class="content-header">If you are seeing this, you don't have javascript enabled. Why don't you have javascript enabled?? Please enable it.</h1>
+      <h1 class="content-header">Welcome to my portfolio site!</h1>
+      <p class="content-header">I am a Senior Computer Science student with experience in DevOps methodologies and Full Stack development, I am <br> a lifelong
+      learner with a passion for organization. Outside of work or school you can find me learning new ways of <br>implementing my
+      skills in creative ways. I am currently learning Unreal Engine 5 as a hobbyist game developer.</p>
     </div>
+
     <script src="navbar.js"></script>
   </body>
 </html>

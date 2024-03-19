@@ -1,0 +1,21 @@
+.firstact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+html, body {
+  background-image: url('../Images/co_background2.jpg');
+  margin: 0;
+  height: 100%;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}

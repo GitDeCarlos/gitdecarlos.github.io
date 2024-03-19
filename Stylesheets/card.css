@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 2px 4px black;
+  opacity: 0.5;
+}
+
+.card:hover {
+  box-shadow: green 0px 0.35em 1.17em, blue 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+  opacity: 1;
+}
