@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: #333;*/
+    padding: 10px 20px;
+}
+
+.nav-left {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-middle {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nav-middle a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-middle a:hover {
+    color: lightgray;
+}
+
+.nav-middle .current-page {
+    color: greenyellow;
+}
+
+.logo img {
+    height: 40px;
+}

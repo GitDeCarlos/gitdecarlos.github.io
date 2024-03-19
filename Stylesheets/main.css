@@ -4,49 +4,6 @@ body, html {
     height: 100%;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /*background-color: #333;*/
-    padding: 10px 20px;
-}
-
-.nav-left {
-    display: flex;
-    align-items: center;
-}
-
-.navbar p {
-    color: white;
-    text-decoration: center;
-    margin: 0 20px;
-    display: inline;
-}
-
-.logo img {
-    height: 40px;
-}
-
-.nav-middle {
-    flex-grow: 1;
-    text-align: center;
-}
-
-.nav-middle a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-}
-
-.nav-middle a:hover {
-    color: lightgray;
-}
-
-.nav-middle .current-page {
-    color: greenyellow;
-}
-
 .content-main {
     /*display: flex;*/
     margin: 50px 0 0 0;
