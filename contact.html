@@ -37,8 +37,28 @@
     </div>
     <div class="content-main">
         <!-- My content here -->
-        <h1 class="content-header">Contact</h1>
-        <p class="content-header">Nothing here yet, please come back later...</p>
+        <h1>Contact</h1>
+    
+        <form action="https://formspree.io/f/mrgnaozw" method="POST" class="container-contact">
+            <fieldset>
+                <legend>Send an email!</legend>
+                <label for="form-name">Name:</label><br>
+                <input type="text" id="form-name"><br>
+                <label for="form-email">Email: </label><br>
+                <input name="email" type="email" id="form-email"><br>
+                <label for="form-message">Message: </label><br>
+                <textarea name="message" id="form-message" cols="30" rows="10" required="true"></textarea><br>
+                <input type="submit">
+            </fieldset>
+            <fieldset>
+                <legend>Find me on my socials!</legend>
+                <p><a href="https://twitter.com/TwitrDeCarlos" target="_blank">Twitter</a></p>
+                <p><a href="https://www.linkedin.com/in/carlos-d-cruz/" target="_blank">Linkedin</a></p>
+                <p><a href="https://github.com/GitDeCarlos" target="_blank">Github</a></p>
+                <p><a href="https://jamdecarlos.itch.io/" target="_blank">Itch.io</a></p>
+            </fieldset>
+        </form>
+        <p>Alternatively, <a href="mailto:carlosincorporated@gmail.com" target="_blank">email me directly</a>!</p>     
     </div>
 
     <script src="navbar.js"></script>
