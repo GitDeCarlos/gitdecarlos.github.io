@@ -1,4 +1,16 @@
-form {
-    border-width: 5px;
-    border-color: white;
+.container-contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+.container-contact a {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+}
+
+.container-contact img {
+    height: 25px;
 }
