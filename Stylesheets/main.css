@@ -21,3 +21,18 @@ a:link {
 a:visited {
     color: aquamarine;
 }
+
+hr {
+    width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-width: 0px 0px 0px 0px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+hr.dotted {
+    border-top: 3px dotted #bbb;
+}

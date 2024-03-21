@@ -1,0 +1,13 @@
+.proj-container-r {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.proj-desc {
+    flex: 0 1 auto;
+}
+
+.proj-media {
+    flex: 0 0 auto;
+}
