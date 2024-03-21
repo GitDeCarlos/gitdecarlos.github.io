@@ -14,11 +14,6 @@ body, html {
     padding: 0;
 }
 
-.content-main .content-header {
-    /*flex-grow: 1;*/
-    text-align: center;
-}
-
 a:link {
     color: wheat;
 }
